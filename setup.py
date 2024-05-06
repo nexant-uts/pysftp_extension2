@@ -21,10 +21,10 @@ with open("README.rst", "r", encoding="utf-8") as fh:
 DESCRIPTION = "A friendly face on SFTP"
 
 setup(
-    name="pysftp-extension2",
+    name="pysftp_extension2",
     version="0.2.14",
     packages=[
-        "pysftp-extension2",
+        "pysftp_extension2",
     ],
     # Project uses reStructuredText, so ensure that the docutils get
     # installed or upgraded on the target machine
@@ -35,7 +35,7 @@ setup(
     description=DESCRIPTION,
     license="BSD",
     keywords="sftp ssh ftp internet",
-    url="https://github.com/nexant-uts/pysftp-extension2",  # project home page
+    url="https://github.com/nexant-uts/pysftp_extension2",  # project home page
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     platforms=["any"],
