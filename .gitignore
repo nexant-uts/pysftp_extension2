@@ -1,0 +1,11 @@
+__pycache__/
+dist
+build
+.DS_Store
+pysftp_extension.egg-info
+pysftp_extension2.egg-info
+*.log
+.vscode
+Makefile
+tests
+*.password
